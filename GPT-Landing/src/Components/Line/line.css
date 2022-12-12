@@ -1,0 +1,8 @@
+.line {
+  background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%),
+    #ffffff;
+  width: 3.8rem;
+  height: 0.3rem;
+  position: absolute;
+  /* top: -1rem; */
+}

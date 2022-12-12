@@ -1,0 +1,43 @@
+.future {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+}
+.future__text {
+  flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.future__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  flex-basis: 60%;
+}
+.futureCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 4rem;
+}
+.futureCard__title {
+  position: relative;
+  width: 40%;
+}
+.futureCard__title h3 {
+  margin-top: 1rem;
+}
+.futureCard p {
+  margin-top: 0;
+  width: 60%;
+  margin-left: 0;
+}
+
+@media (max-width: 767px) {
+  .future {
+    flex-direction: column;
+    gap: 5rem;
+  }
+}
