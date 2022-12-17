@@ -79,6 +79,7 @@ const Links = [
 ];
 
 const Footer = () => {
+    const year = new Date().getFullYear();
     return (
         <div className="footer pad">
             <div className="footer__text">
@@ -110,7 +111,7 @@ const Footer = () => {
                         </div>)
                 })}
             </div>
-            <p>© 2021 GPT-3. All rights reserved.</p>
+            <p>© {year} GPT-3. All rights reserved.</p>
         </div>
     )
 }
